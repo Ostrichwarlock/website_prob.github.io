@@ -135,7 +135,7 @@
                 message = $this.data("validationMinMessage");
               }
               $this.data("validationMinMessage", message);
-              $this.data("validationMinMin", min);
+              $this.data("validationMinMin", min);``
             }
             // ---------------------------------------------------------
             //                                                 MAXLENGTH
@@ -169,6 +169,16 @@
               }
               $this.data("validationRequiredMessage", message);
             }
+            // --------------------------------------------------------
+            //                                                     DATE
+            // --------------------------------------------------------
+            // if ($this.attr("type") !== undefined && $this.attr("type").toLowerCase() === "date") {
+            //   message = settings.builtInValidators.dat.message;
+            //   if ($this.data("validationDatrMessage")) {
+            //     message = $this.data("validationDatMessage");
+            //   }
+            //   $this.data("validationDatMessage", message);
+            // }
             // ---------------------------------------------------------
             //                                                    NUMBER
             // ---------------------------------------------------------

@@ -61,6 +61,18 @@ h6 {
     margin: 0 auto;
 }
 
+.img-spacex{
+    position: absolute; /* Position the image absolutely within its container */
+    top: 100px; /* Adjust the desired top position in pixels or other units */
+    left: 20px;
+}
+
+.img-chess{
+    position: absolute; /* Position the image absolutely within its container */
+    top: 55px; /* Adjust the desired top position in pixels or other units */
+    right: 20px;
+}
+
 .bg-light-gray {
     background-color: #f7f7f7;
 }
@@ -128,6 +140,8 @@ fieldset[disabled] .btn-primary.active {
     font-weight: 700;
     color: #fff;
     background-color: #{{ site.data.template.color.primary }};
+    border-radius: 15px;
+    transition: transform 0.3s ease;
 }
 
 .btn-xl:hover,
@@ -138,6 +152,7 @@ fieldset[disabled] .btn-primary.active {
     border-color: #{{ site.data.template.color.primary }};
     color: #fff;
     background-color: #{{ site.data.template.color.secondary }};
+    transform: scale(1.1);
 }
 
 .btn-xl:active,
@@ -269,7 +284,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.png');
+    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
