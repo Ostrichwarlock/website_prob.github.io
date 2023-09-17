@@ -34,4 +34,4 @@ $('div.modal').on('show.bs.modal', function() {
 			$(modal).modal('hide');
 		}
 	}
-});
+}); 
